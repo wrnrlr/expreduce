@@ -217,6 +217,7 @@ func GetAllDefinitions() (defs []NamedDefSet) {
 	defs = append(defs, NamedDefSet{"manip", getManipDefinitions()})
 	defs = append(defs, NamedDefSet{"rubi", getRubiDefinitions()})
 	defs = append(defs, NamedDefSet{"tests", getTestsDefinitions()})
+	defs = append(defs, NamedDefSet{"network", getNetworkDefinitions()})
 
 	// Check for duplicate definitions
 	definedNames := make(map[string]bool)
