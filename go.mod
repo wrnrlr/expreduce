@@ -15,7 +15,7 @@ require (
 	github.com/remyoudompheng/bigfft v0.0.0-20190728182440-6a916e37a237 // indirect
 	github.com/stretchr/testify v1.4.0
 	github.com/wcharczuk/go-chart v2.0.1+incompatible
-	golang.org/x/image v0.0.0-20190910094157-69e4b8554b2a // indirect
+	golang.org/x/image v0.0.0-20191009234506-e7c1f5e7dbb8 // indirect
 	gopkg.in/readline.v1 v1.0.0-20160726135117-62c6fe619375
 	modernc.org/golex v1.0.0 // indirect
 	modernc.org/mathutil v1.0.0 // indirect
