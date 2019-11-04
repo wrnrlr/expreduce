@@ -162,7 +162,8 @@ func Render(expr expreduceapi.Ex) (chart.Chart, error) {
 			Style: chart.StyleShow(),
 		},
 		YAxis: chart.YAxis{
-			Style: chart.StyleShow(),
+			AxisType: chart.YAxisSecondary,
+			Style:    chart.StyleShow(),
 		},
 	}
 
