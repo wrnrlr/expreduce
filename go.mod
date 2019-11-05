@@ -1,4 +1,4 @@
-module github.com/wrnrlr/expreduce
+module github.com/corywalker/expreduce
 
 go 1.13
 
