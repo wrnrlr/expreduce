@@ -230,6 +230,22 @@ func (es *EvalState) Init(loadAllDefs bool) {
 		es.MarkSeen("System`Scaled")
 		es.MarkSeen("System`Ticks")
 
+		es.MarkSeen("System`Rectangle")
+		es.MarkSeen("System`Circle")
+		es.MarkSeen("System`Black")
+		es.MarkSeen("System`White")
+		es.MarkSeen("System`Red")
+		es.MarkSeen("System`Green")
+		es.MarkSeen("System`Blue")
+		es.MarkSeen("System`Yellow")
+		es.MarkSeen("System`Cyan")
+		es.MarkSeen("System`Magenta")
+		es.MarkSeen("System`Brown")
+		es.MarkSeen("System`Orange")
+		es.MarkSeen("System`Pink")
+		es.MarkSeen("System`Purple")
+		es.MarkSeen("System`Grey")
+
 		for _, defSet := range GetAllDefinitions() {
 			for _, def := range defSet.Defs {
 				es.MarkSeen(es.GetStringDef("System`$Context", "") + def.Name)
