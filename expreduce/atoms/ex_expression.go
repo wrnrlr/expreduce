@@ -131,7 +131,7 @@ func (thisExpr *Expression) StringForm(params expreduceapi.ToStringParams) strin
 }
 
 func (thisExpr *Expression) String() string {
-	return thisExpr.StringForm(defaultStringParams())
+	return thisExpr.StringForm(DefaultStringParams())
 }
 
 func (thisExpr *Expression) IsEqual(otherEx expreduceapi.Ex) string {

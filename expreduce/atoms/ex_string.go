@@ -21,7 +21,7 @@ func (str *String) StringForm(params expreduceapi.ToStringParams) string {
 }
 
 func (str *String) String() string {
-	return str.StringForm(defaultStringParams())
+	return str.StringForm(DefaultStringParams())
 }
 
 func (str *String) IsEqual(other expreduceapi.Ex) string {

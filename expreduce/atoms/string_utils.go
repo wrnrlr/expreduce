@@ -12,7 +12,7 @@ func (fes fakeEvalState) GetDefined(name string) (expreduceapi.Def, bool) {
 	return expreduceapi.Def{}, false
 }
 
-func defaultStringParams() expreduceapi.ToStringParams {
+func DefaultStringParams() expreduceapi.ToStringParams {
 	context := NewString("Global`")
 	contextPath := NewExpression([]expreduceapi.Ex{
 		NewSymbol("System`List"),

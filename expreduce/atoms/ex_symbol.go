@@ -60,7 +60,7 @@ func (sym *Symbol) StringForm(params expreduceapi.ToStringParams) string {
 }
 
 func (sym *Symbol) String() string {
-	return sym.StringForm(defaultStringParams())
+	return sym.StringForm(DefaultStringParams())
 }
 
 func (sym *Symbol) IsEqual(other expreduceapi.Ex) string {

@@ -23,7 +23,7 @@ func (thisInt *Integer) StringForm(params expreduceapi.ToStringParams) string {
 }
 
 func (thisInt *Integer) String() string {
-	return thisInt.StringForm(defaultStringParams())
+	return thisInt.StringForm(DefaultStringParams())
 }
 
 func (thisInt *Integer) IsEqual(other expreduceapi.Ex) string {
