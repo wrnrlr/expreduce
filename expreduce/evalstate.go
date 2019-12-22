@@ -230,6 +230,7 @@ func (es *EvalState) Init(loadAllDefs bool) {
 		es.MarkSeen("System`Scaled")
 		es.MarkSeen("System`Ticks")
 
+		es.MarkSeen("System`GreyLevel")
 		es.MarkSeen("System`Rectangle")
 		es.MarkSeen("System`Circle")
 		es.MarkSeen("System`Black")
